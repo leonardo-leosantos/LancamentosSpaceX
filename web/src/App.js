@@ -72,15 +72,17 @@ function App() {
 
   return (
     <div id="app">
-      
-      <button onClick={carregarCapsulas}>Listar Todas</button>
-      <button onClick={carregarCapsulasPast}>Listar Passadas</button>
-      <button onClick={carregarCapsulasFuture}>Listar Futuras</button>
-      <button onClick={carregarCapsulaNext}>Próxima</button>
-      <button onClick={carregarCapsulaAntiga}>Última</button>
+      <div id="btn">
+      <button onClick={carregarCapsulas}>Todas Cápsulas</button>
+      <button onClick={carregarCapsulasPast}>Cápsulas Passadas</button>
+      <button onClick={carregarCapsulasFuture}>Cápsulas Futuras</button>
+      <button onClick={carregarCapsulaNext}>Próxima Cápsula</button>
+      <button onClick={carregarCapsulaAntiga}>Última Capsula</button>
+      </div>
       
       <main>
-        <strong>SpaceX</strong>
+        <strong>Lançamentos - SpaceX</strong>
+        <hr/>
 
         <table>
           <thead>
