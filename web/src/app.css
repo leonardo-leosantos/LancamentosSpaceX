@@ -21,7 +21,11 @@ table {
 }
 
 td, th {
-    width: 200px;
+    width: 500px;
+}
+
+td {
+    height: 70px;
 }
 
 button {

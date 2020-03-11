@@ -106,7 +106,7 @@ function App() {
                   <td>{lancamento.status}</td>
                   <td>{lancamento.landings}</td>
                   <td>{lancamento.type}</td>
-                  <td>{new Date(lancamento.original_launch).toLocaleDateString()}</td>
+                  <td>{new Date(lancamento.original_launch).toLocaleDateString() + ' ' + new Date(lancamento.original_launch).toLocaleTimeString()}</td>
                   <td>{lancamento.details}</td>
                   <td>{JSON.stringify(lancamento.missions).valueOf()}</td>
                   <td>{lancamento.reuse_count}</td>
