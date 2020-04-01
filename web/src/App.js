@@ -81,7 +81,7 @@ function App() {
       </div>
       
       <main>
-        <strong>Lançamentos - SpaceX</strong>
+        <strong> Os Lançamentos - SpaceX</strong>
         <hr/>
 
         <table>
